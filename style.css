@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: blanchedalmond;
+	}
+
+	/* Header styles */
+
+h1{
+	font-size: 170px;
+	color: rgb(32, 221, 174,0.8);
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	text-shadow: 4px 2px 2px cornsilk;
+	padding: 0px;
+	margin-top: 0%;
+}
+  
+header a {
+	color: #000;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+  }
+  
+  
+
+header {
+	background: linear-gradient(to bottom right, #5a9b8c, #fad0c4);
+    padding: 0px;
+	height: 220px;
+	width:auto;
+}
+
+/* Main styles */
+
+body {
+	font-family: 'Dancing Script', cursive;
+font-family: 'Itim', cursive;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #102d2b;
+	
+  }
+  
+  /* Style the hero section */
+  #hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+  background:rgb(222, 224, 224,1.2);
+	
+  }
+
+  #hero h2 {
+	font-family: 'Dancing Script', cursive;
+font-family: 'Itim', cursive;
+	font-size: 36px;
+	margin-bottom: 20px;
+  }
+  
+  #hero img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+  }
+  
+  #hero p {
+	margin-bottom: 20px;
+  }
+  
+  #hero .button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #74c098;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+  }
+  
+  #hero .button:hover {
+	background-color: #71c89e;
+  }
+  
+  /* Style the features section */
+
+  #nutri {
+	text-align: center;
+	padding: 50px;
+	background-image: linear-gradient(to right, #fffbd5, #72ab97);
+  }
+  
+  #nutri h2 {
+	text-decoration: underline;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-family: 'Dancing Script', cursive;
+font-family: 'Itim', cursive;
+  }
+  
+  #nutri ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  #nutri li {
+	margin-bottom: 10px;
+  }
+  
+  /* Style the reviews section */
+  #info {
+	text-align: center;
+	padding: 50px;
+	background-color:#73e3c5;
+  }
+  
+  #info h2 {
+	font-family: 'Dancing Script', cursive;
+font-family: 'Itim', cursive;
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+  }
+  
+  #info ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  #info li {
+	margin-bottom: 20px;
+	font-style: italic;
+  }
+
+/*footer styles*/
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	position: relative;
+  }
+  
+  /* Style the logo */
+  .logo img {
+	position: absolute; 
+   top: 100px; 
+   left: 100px;
+
+  }
+  
+  /* Style the contact form */
+  .contact-form {
+	margin: 20px;
+	text-align: center;
+  }
+  
+  .contact-form h3 {
+	margin-bottom: 10px;
+	font-family: 'Dancing Script', cursive;
+font-family: 'Itim', cursive;
+font-size: larger;
+  }
+  
+  .contact-form form {
+	display: inline-block;
+	text-align: left;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+	display: block;
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #72f7b4;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  .contact-form textarea {
+	height: 100px;
+  }
+  
+  .contact-form button[type="submit"] {
+	background-color: #4CAF50;
+	color: rgb(241, 241, 241);
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+	background-color: #78ffd4;
+  }
+  
+  /* Style the company info  */
+  .company-info {
+	margin: 20px;
+	text-align: center;
+  }
+  
+  .company-info p {
+	margin-bottom: 10px;
+	
+  }
+  
+  .company-info ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .company-info li {
+	margin-bottom: 5px;
+  }
+  
+  .company-info i {
+	margin-right: 5px;
+  }
+ 
